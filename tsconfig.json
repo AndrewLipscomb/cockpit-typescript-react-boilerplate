@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "./build/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "typeRoots": [
+            "./node_modules/@types",
+            "./@types"          //For now this is my non standard import location for my non official Cockpit typing
+        ]
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "version": 0,
+    "require": {
+        "cockpit": "120"
+    },
+    "tools": {
+       "my-tool": {
+          "label": "My Tool",
+          "path": "index.html"
+       }
+    }
+  }

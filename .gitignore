@@ -1,0 +1,12 @@
+# Visual Studio Folders
+.vs/
+.vscode/
+
+# Node Installed Modules
+node_modules/
+
+# Lockfiles
+package-lock.json
+
+# Build dir
+build/
