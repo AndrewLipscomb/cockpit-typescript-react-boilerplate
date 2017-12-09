@@ -7,10 +7,9 @@
     "test": "test",
     "build-test": "webpack --config webpack.config.dev.js --watch",
     "build-prod": "webpack --config webpack.config.prod.js",
+    "write-manifest-names": "node ./install/write_manifest_names.js",
     "link-to-cockpit": "node ./install/create_cockpit_symlink.js",
-    "unlink-to-cockpit": "node ./install/remove_cockpit_symlink.js",
-    "install-src": "node ./install/install_src_submodule.js",
-    "uninstall-src": "node ./install/uninstall_src_submodule.js"
+    "unlink-to-cockpit": "node ./install/remove_cockpit_symlink.js"
   },
   "author": "Andrew Lipscomb (lipscomb.andrew@gmail.com)",
   "license": "ISC",
@@ -19,15 +18,12 @@
     "@types/react-dom": "^16.0.3",
     "awesome-typescript-loader": "^3.4.1",
     "css-loader": "^0.28.7",
-    "is-git-url": "^1.0.0",
-    "node-ask": "^1.0.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "source-map-loader": "^0.2.3",
     "style-loader": "^0.19.0",
     "typescript": "^2.6.2",
     "uglify-js": "^3.2.1",
-    "version_compare": "0.0.3",
     "webpack": "^3.10.0",
     "webpack-merge": "^4.1.1"
   },
