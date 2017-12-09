@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
+    "build-dev": "webpack-dev-server --open --config webpack.config.dev.js",
     "build-test": "webpack --config webpack.config.dev.js --watch",
     "build-prod": "webpack --config webpack.config.prod.js",
     "write-manifest-names": "node ./install/write_manifest_names.js",
@@ -25,6 +26,7 @@
     "typescript": "^2.6.2",
     "uglify-js": "^3.2.1",
     "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7",
     "webpack-merge": "^4.1.1"
   },
   "dependencies": {}

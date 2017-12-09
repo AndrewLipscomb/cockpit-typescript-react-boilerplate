@@ -27,6 +27,20 @@ npm run link-to-cockpit
 
 to link the package to the current user's Cockpit module directory. Log in to Cockpit and the module should be there. If you are already logged in, you will need to log out and in again to make it appear
 
+## Hot Reloading and Production Builds
+
+I've not yet figured out how to get hot reloading into Cockpit proper - in the interim `webpack-dev-server` can be used to test some changes quickly
+
+```
+npm run build-dev-server
+```
+
+A minified build can also be produced for a proper deployment using
+
+```
+npm run build-prod
+```
+
 ## Modifying
 
 The main modification beyond a source submodule you will need to make is in `manifest.json`, which contains the name of the module(s) as it is exposed to Cockpit.

@@ -5,7 +5,7 @@ import { MyComponent } from "./MyComponent/mycomponent";
 
 ReactDOM.render(
     <MyComponent
-        compiler="TypeScript"
+        compiler="Typescript"
         framework="React" />,
     document.getElementById("root")
 );
