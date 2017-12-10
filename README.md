@@ -43,9 +43,9 @@ npm run build-prod
 
 ## Modifying
 
-The main modification beyond a source submodule you will need to make is in `manifest.json`, which contains the name of the module(s) as it is exposed to Cockpit.
+The main modification you will need to make is in `manifest.json`, which contains the name of the module(s) as it is exposed to Cockpit.
 
-I have tried to keep this boilerplate as light as possible. It only includes the basics you need to get a simple Typescript/React app running. If you wish to use modules for things like Mocha for automated testing or SASS programmatic CSS, please consider forking this repo. 
+I have tried to keep this boilerplate as light as possible. It only includes the basics you need to get a simple Typescript/React app running.
 
 It also only exposes one module - more can be added under `manifest.json`. You will likely then need to create separate Webpack build scripts for each module's source. 
 
