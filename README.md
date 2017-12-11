@@ -2,6 +2,16 @@
 
 A straightforward CockpitJS component written to simplify new module creation. 
 
+## Before You Start
+
+Make sure you have the correct version of Node installed. You need 8.X.X or above.
+
+```
+node --version
+```
+
+If you don't have it installed, or you have an old version, update [here](https://nodejs.org/en/download/).
+
 ## Installation
 
 As this is intended to be used as a boilerplate, it is suggested that you clone the repo into a folder with the name of your intended module. 
@@ -43,9 +53,9 @@ npm run build-prod
 
 ## Modifying
 
-The main modification beyond a source submodule you will need to make is in `manifest.json`, which contains the name of the module(s) as it is exposed to Cockpit.
+The main modification you will need to make is in `manifest.json`, which contains the name of the module(s) as it is exposed to Cockpit.
 
-I have tried to keep this boilerplate as light as possible. It only includes the basics you need to get a simple Typescript/React app running. If you wish to use modules for things like Mocha for automated testing or SASS programmatic CSS, please consider forking this repo. 
+I have tried to keep this boilerplate as light as possible. It only includes the basics you need to get a simple Typescript/React app running.
 
 It also only exposes one module - more can be added under `manifest.json`. You will likely then need to create separate Webpack build scripts for each module's source. 
 
