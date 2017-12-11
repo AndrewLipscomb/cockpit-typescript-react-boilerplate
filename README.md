@@ -2,6 +2,16 @@
 
 A straightforward CockpitJS component written to simplify new module creation. 
 
+## Before You Start
+
+Make sure you have the correct version of Node installed. You need 8.X.X or above.
+
+```
+node --version
+```
+
+If you don't have it installed, or you have an old version, update [here](https://nodejs.org/en/download/).
+
 ## Installation
 
 As this is intended to be used as a boilerplate, it is suggested that you clone the repo into a folder with the name of your intended module. 
